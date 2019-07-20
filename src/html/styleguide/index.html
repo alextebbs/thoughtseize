@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    @include("head.html")
+  </head>
+  <body class='styleguide-nav-is-active'>
+
+    <div class='style-guide'>
+      @include("styleguide/styleguide.html")
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.7/chosen.jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.5/js/select2.min.js"></script>
+    <script src="/assets/js/scripts.js"></script>
+
+    <script>
+      $(function() {
+        $('select.chosen-select').chosen({
+          width: '100%'
+        });
+      });
+
+      $(function() {
+        $('select.select2-select').select2({
+          // Options
+          width: '100%'
+        });
+      });
+    </script>
+  </body>
+</html>

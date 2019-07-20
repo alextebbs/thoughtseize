@@ -1,0 +1,16 @@
+a {
+  color: c('text-color-1');
+  text-decoration: none;
+
+  &:hover {
+    color: lighten(c("text-color-1"), 30%);
+  }
+
+  .theme-dark & {
+    color: c('text-color-1');
+
+    &:hover {
+      color: c('text-color-1');
+    }
+  }
+}

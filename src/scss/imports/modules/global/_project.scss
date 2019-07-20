@@ -1,0 +1,45 @@
+.project-description {
+  margin-top: bl(3);
+
+  iframe {
+    width: 100%;
+  }
+}
+
+.detail-page main.content-area>.text-container {
+  justify-content: flex-start;
+}
+
+.project-photos {
+  background: #eee;
+  flex-grow: 1;
+  max-width: 50%;
+
+  @include below(v('medium')) {
+    display: none;
+  }
+
+  img {
+    max-width: 100%;
+    margin-bottom: 0px;
+    display: block;
+  }
+}
+
+
+.mobile-photo {
+  display: none;
+  margin-left: bl(-0.75);
+  margin-right: bl(-0.75);
+
+  @include below(v('medium')) {
+    display: block;
+  }
+
+  img {
+    width: 100%;
+    display: block;
+    margin-bottom: bl(1);
+  }
+}
+

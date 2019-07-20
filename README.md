@@ -1,0 +1,2 @@
+# thoughtseize
+Thoughtseize.studio

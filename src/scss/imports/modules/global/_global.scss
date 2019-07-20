@@ -30,6 +30,7 @@ body, html {
   width: 66vh;
 
   @include below(v('medium')) {
+    width: auto;
     height: 50vh;
     background-position: center 40%;
     min-width: 0px;

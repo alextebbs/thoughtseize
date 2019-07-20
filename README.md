@@ -1,2 +1,2 @@
 # thoughtseize
-(thoughtseize.studio)[thoughtseize.studio]
+[thoughtseize.studio](thoughtseize.studio)

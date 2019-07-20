@@ -22,12 +22,12 @@ body, html {
 .photo {
   background: #000;
   flex-grow: 1;
-  min-width: 360px;
   background-image: url(/assets/img/brady-2-cropped.jpg);
   background-size: cover;
   background-position: center center;
   position: relative;
   overflow: hidden;
+  width: 66vh;
 
   @include below(v('medium')) {
     height: 50vh;

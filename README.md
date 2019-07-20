@@ -1,1 +1,1 @@
-[thoughtseize.studio](thoughtseize.studio)
+[thoughtseize.studio](http://www.thoughtseize.studio)
